@@ -34,7 +34,7 @@ outputs:
     description: Total number of violations in the report. Include only number of violations in changed files if annotateOnlyChangedFiles == true.
 runs:
   using: node16
-  main: dist/index.js
+  main: source/index.js
 branding:
   icon: code
   color: red
